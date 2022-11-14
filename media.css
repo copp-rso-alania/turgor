@@ -1,0 +1,200 @@
+@media(min-width: 1300px){
+	.bulel a:hover{
+	color: rgb(172, 167, 145);
+								}
+
+	.topblock button:hover{
+		background: linear-gradient(90deg,#919978,rgb(172, 167, 145));;
+		cursor: pointer;
+		color: white;
+	}
+
+	.browntop button:hover{
+	background: linear-gradient(90deg,#919978,rgb(172, 167, 145));
+	}
+
+	.connect a:hover{
+		color: lightseagreen;
+	}
+
+	.feedback button:hover{
+		background-color: lightseagreen;
+		border-color: lightseagreen;
+	}
+
+}
+
+
+
+@media(max-width: 700px){
+	.big1, .browntop h1, .cozyh1, .and_more{
+		font-size: 35px;
+		padding-inline: 10px;
+		font-weight: bold;
+		text-align: center;
+		letter-spacing: 1px;
+		font-family: mainl;
+	}
+
+	.browntop h1{
+		margin-bottom: 25px;
+		margin-top: 25px;
+		font-size:32px;
+		text-align: left;
+	}
+
+	.browntop p{
+		text-align: left;
+		padding-left: 10px;
+	}
+
+
+	/*.big1{
+		text-align: center;
+	}*/
+
+	.small1{
+		margin-bottom: 0px;
+		text-align: center;
+		letter-spacing: 1px;
+		padding-inline: 10px;
+	}
+
+	.small1 br{
+		display: none;
+	}
+
+	.small1:last-child{
+		text-align: left;
+	}
+
+	.dbltexttop{
+		row-gap: 1em;
+		justify-content: center;
+		margin: 2em auto 2em auto;
+	}
+
+	header,.mul{
+		padding-inline: 10px;
+	}
+
+	header{
+		padding-bottom: 2em;
+		padding-top: 1.5em;
+	}
+
+	.cozy{
+		text-align: center;
+	}
+
+	.part2{
+		padding: 50px 0px ;
+	}
+
+
+	.threimg img{
+		max-width: 320px;
+		height: 320px;
+	}
+
+	/*.cozyh1{
+		padding-right: 0px;
+	}*/
+
+	.points{
+		padding-left: 3%;
+		padding-right: 10px;
+		margin-bottom: 45px;
+		margin-top: 20px;
+	}
+
+	.square_lines,.part3{
+		padding-top: 40px;
+	}
+
+	.map{
+		margin-inline: 15px;
+		border: 2px solid;
+	}
+
+
+	.reviews{
+		padding-bottom: 50px;
+	}
+
+	.connect{
+		margin-top: 60px;
+		flex-direction: column;
+		gap: 1em;
+		padding-inline: 10px;
+	}
+
+	.connect *{
+		padding: 0;
+	}
+
+	.connect button{
+		display: block;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+	.flexrev{
+		padding-inline: 12px;
+		row-gap: 1.4em;
+	}
+
+	.browntop{
+		padding-inline: 10px;
+	}
+
+	.end{
+		padding-bottom: 50px;
+	}
+
+	.fin{
+		font-size: 1.1em;
+	}
+
+	.revtext{
+		margin-bottom: 20px;
+	}
+
+	.absol2,.absol1{
+		max-width: 20px;
+		height: 40px;
+	}
+
+	.bigimg{
+		padding-inline: 0px;
+	}
+
+	.pics{
+		padding-inline: 10px;
+	}
+
+	.cards{
+		margin-bottom: 45px;
+	}
+
+	.nomera{
+		padding-left: 10px;
+	}
+
+}
+
+
+@media(max-width: 394px){
+	.map{
+		max-height: 310px;
+	}
+
+	.pics img{
+		min-width: 270px;
+    height: 220px;
+	}
+
+	.toptitle h2{
+		font-size: 1.45em;
+	}
+}
