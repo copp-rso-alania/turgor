@@ -25,6 +25,13 @@
 }
 
 
+@media(min-width: 500px){
+	.fix{
+		min-width: 450px;
+	}
+}
+
+
 
 @media(max-width: 700px){
 	.big1, .browntop h1, .cozyh1, .and_more{
@@ -182,6 +189,17 @@
 	}
 
 }
+
+
+@media(max-width: 500px){
+	.textnow{
+		font-size: 28px;
+		margin-top: 32px;
+	}
+
+}
+
+
 
 
 @media(max-width: 394px){
