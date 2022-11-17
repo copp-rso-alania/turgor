@@ -31,12 +31,14 @@
 
 			<div class="topblock">
 				<button>
-					<a href="">
+					<a href="" target="blank">
 						Гостиницы
 					</a>
 				</button>
 			</div>
 		</header>
+
+
 
 
 <div class="premul">
@@ -125,9 +127,10 @@
 			Большое количество отелей и зон отдыха находятся за чертой города. Вам предоставлен огромный выбор мест нашей прекрасной республики.
 		</p>
 
-		<button>
+		<a href="#connect"><button>
 			НАШИ КОНТАКТЫ
-		</button>
+		</button></a>
+		
 
 	</div>
 
@@ -407,7 +410,7 @@
 
 						<div class="feedback">
 							<div class="text_us">Напишите нам, если у вас возникли вопросы</div>
-							<button>ОБРАТНАЯ СВЯЗЬ</button>
+							<button id="feedback">ОБРАТНАЯ СВЯЗЬ</button>
 						</div>
 					</div>
 
@@ -450,6 +453,32 @@
 				<span style="color:#D25C9B;">П</span><span style="color: #41BCE6;">о</span><span style="color:#CCB707">Д</span><span style="color:#81B83C">е</span><span style="color:#D25C9B">З</span><span style="color:#41BCE6">н</span><span style="color:#CCB707">а</span><span style="color:#81B83C">й</span> 
 			</div>
 		</footer>	
+
+
+		<div class="fix" id="fix">
+
+			<div class="cross" id="close">
+				<img src="Фото/close.png" alt="">
+			</div>
+			<div class="textnow">
+				Напишите нам прямо сейчас
+			</div>
+			<form action="back.php" method="post" target="blank">
+				<div>Ваше ФИО: <input type="text" placeholder="Пример: Иванов Иван Иванович" name="name"></div>
+				<div>Ваш номер телефона: <input type="number" name="number"></div>
+				<div>Ваша электронная почта: <input type="email" name="mail"></div>
+				 <div>Ваше сообщение: <br>
+				<textarea name="" id="" ></textarea> <br></div>
+				
+				<div class="but">
+					<button>
+						Отправить
+					</button>
+				</div>
+				
+
+			</form>
+		</div>
 		
 	</div>	
 
