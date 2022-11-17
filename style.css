@@ -548,3 +548,80 @@ footer{
 	position:relative;
 	overflow:hidden;
 }
+
+
+
+/*обратная связь*/
+
+.fix{
+	display: none;
+	position: fixed;
+	/*width: 500px;
+	height: 500px;*/
+	background-color: #9EA079;
+	z-index: 99;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding-inline: 20px;
+	border-radius: 5px;
+	min-width: 300px;
+	/*margin: 10px 0px 10px 0px;*/
+}
+.textnow{
+	text-align: center;
+	font-size: 1.7em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*font-weight: bold;*/
+	font-family: mainl;
+}
+
+.fix form{
+	font-size: 25px;
+}
+
+.fix form >div{
+	margin-bottom: 12px;
+}
+
+.fix form input{
+	vertical-align: middle;
+	width: 100%;
+	height: 25px;
+	/*font-size: 20px;*/
+}
+
+.fix form textarea{
+	width: 100%;
+	height: 200px;
+}
+
+.but{
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.fix form button{
+	cursor: pointer;
+	font-size: 24px;
+	border-radius: 5px;
+	border: none;
+	padding: 6px 16px;
+}
+
+
+
+.cross{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.cross img{
+	width: 25px;
+	height: 25px;
+}
