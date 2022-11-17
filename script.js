@@ -6,6 +6,9 @@ let links = ['Фото/food1.jpg','Фото/food2.jpeg','Фото/food3.jpeg','�
 let iter = 0;
 
 
+// big = [0,1,2]
+
+
 big[2].onclick = function() {
 
 
@@ -17,6 +20,10 @@ big[2].onclick = function() {
 
 		big[0].src = links[iter];
 }
+
+
+
+
 
 
 big[1].onclick = function() {
@@ -32,3 +39,13 @@ big[1].onclick = function() {
 
 }
 
+
+let formback = document.getElementById('fix');
+document.getElementById('feedback').onclick = function(){
+	formback.style.display = 'block';
+}
+
+
+document.getElementById('close').onclick = function(){
+	formback.style.display = 'none';
+}
