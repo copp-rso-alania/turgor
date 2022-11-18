@@ -59,6 +59,12 @@ let send = document.getElementById('submit');
 
 
 send.onclick = function(event){
-	event.preventDefault();
-	return(alert('Не все поля заполнены'))
+
+
+	for(let i=0; i< inputs.length;i++){
+		if(inputs[i].value == ''){
+			event.preventDefault();
+			return(alert('Не все поля заполнены'));
+		}
+	}
 }
