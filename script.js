@@ -33,6 +33,7 @@ big[1].onclick = function() {
 			iter = links.length;
 		}
 
+
 		big[0].src = links[iter-1];
 		iter--;
 		
@@ -48,4 +49,16 @@ document.getElementById('feedback').onclick = function(){
 
 document.getElementById('close').onclick = function(){
 	formback.style.display = 'none';
+}
+
+
+
+let inputs = document.getElementsByClassName('backinput');
+
+let send = document.getElementById('submit');
+
+
+send.onclick = function(event){
+	event.preventDefault();
+	return(alert('Не все поля заполнены'))
 }
