@@ -214,6 +214,7 @@ header{
 
 .cards{
 	display: flex;
+	align-items: flex-start;
 	row-gap: 1.5em;
 	justify-content: space-around;
 	flex-wrap: wrap;
